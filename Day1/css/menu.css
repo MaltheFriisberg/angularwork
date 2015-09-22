@@ -1,0 +1,42 @@
+@media (min-width: 1200px) {
+  .my-content {
+    padding-left: 300px;
+  }
+}
+.side-menu {
+  background-color: #efefef;
+  width: 150px;
+}
+.side-menu h3 {
+  font-weight: 100;
+  cursor: pointer;
+  margin: 0;
+  padding: 20px 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.side-menu h3:hover {
+  background-color: red;
+}
+.side-menu i {
+  min-width: 50px;
+  text-align: center;
+}
+label {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+.top-menu i {
+  font-size: 40px;
+  padding: 15px;
+}
+.btn-primary {
+  padding: 15px;
+  margin-top: 15px;
+}
+.error {
+  color: red;
+}

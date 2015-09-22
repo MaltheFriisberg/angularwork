@@ -1,0 +1,8 @@
+//declaring an object
+// [] declares an array
+var model = {user: "Adam" , items : [action: "Buy flowers"]}
+//declares a new module
+var todoApp = Angular.module("todoApp", [])
+
+//points to an existing module
+var todoApp = Angular.module("todoApp")
