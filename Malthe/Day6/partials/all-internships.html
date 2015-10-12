@@ -1,0 +1,19 @@
+<div>
+    <button class="btn btn-primary pull-right" ui-sref="new-internship">
+        Create New Internship
+    </button>
+
+    <div ng-repeat="visit in internshipVisits" class="col-xs-6"
+         ng-click="editInternship(visit)">
+        <label>Initials</label> {{visit.initials}}
+        <label>Date</label> {{visit.date}}
+        <label>Student Name</label> {{visit.studentname}}
+        <label>Student Email</label> {{visit.studentemail}}
+    </div>
+
+    <div>
+        <button class = "btn btn-default" ui-sref="all-internships.Subview1"> Subview1</button>
+        <button class = "btn btn-default" ui-sref="all-internships.Subview2"> Subview2</button>
+    </div>
+    <div ui-view></div>
+</div>
