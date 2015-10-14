@@ -7,7 +7,10 @@ angular.module("internship").controller("topLevelController",
         console.log("Hello from top level controller");
         //var dataToSave = ...
         //binding the (injected) respurce to our rest url
-        $scope.internshipResource = $resource("http://angularkea1.azurewebsites.net/api/internships/:id",
+        //https://docs.angularjs.org/api/ngResource/service/$resource
+
+        $scope.internshipResource = $resource("http://angularkea.azurewebsites.net/api/internships/:id",
+
             {id: "@id"}, {update: {method: "PUT"}});
         //binding the scope array
         $scope.internshipVisits = $scope.internshipResource.query();
