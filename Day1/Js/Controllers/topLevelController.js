@@ -1,6 +1,4 @@
-/**
- * Created by christiankirschberg on 29/09/15.
- */
+
 
 angular.module("internship").controller("topLevelController",
     function($scope, $http, $resource) {
